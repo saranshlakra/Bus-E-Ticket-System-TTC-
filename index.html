@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>TTC e-ticketer</title>
+  </head>
+  <body>
+    <div id="logo">
+      <img
+        id="logo"
+        src="https://ttc-cdn.azureedge.net/-/media/Project/TTC/DevProto/Icons/TTC-LOGO.svg?h=70&iar=0&w=130&rev=4eab8911954346daac6109b0e428a7a8&hash=B51F5613FBD392950421B03466715365"
+        alt="TTC Logo"
+      />
+    </div>
+
+    <div id="buyTicket">
+      <form action="" name="infoForm">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name"
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name"
+        />
+
+        <label for="fromStation">From Station</label>
+        <select id="fromstation" name="fromstation">
+          <option value="default">Select your Station</option>
+          <option value="Humber">Humber</option>
+          <option value="Kipling">Kipling</option>
+        </select>
+        <label for="toStation">To Station</label>
+        <select id="tostation" name="tostation">
+          <option value="default">Select your Station</option>
+          <option value="Humber">Humber</option>
+          <option value="Kipling">Kipling</option>
+        </select>
+        <label for="type">Pass Type</label>
+        <select id="passType" name="passType">
+          <option value="default">Are you student, adult, or senior</option>
+          <option value="student">Student</option>
+          <option value="adult">Adult</option>
+          <option value="senior">Senior</option>
+        </select>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div id="main"> 
+      <div class="ticket"> 
+        <!-- <span class="material-icons">
+        more_horiz
+        </span> -->
+        <div class="dots"></div>
+        <div class="dots"></div>
+        <div class="dots"></div>
+        <div class="dots"></div>
+        <div class="dots"></div>
+        <div class="ticketFields" id="busInfo">
+          <div id="bus">
+            Bus<br />
+            <p id="TD5"></p>
+          </div>
+          <div class="" id="ticketValidity"><p class="" id="TD4"></p></div>
+        </div>
+        <div class="ticketFields" id="buyDate">
+          <div id="from">
+          From
+          <p class="" id="TD2"></p>
+        </div>
+        <!-- <span class="material-icons-outlined">arrow_forward</span> -->
+          <div id="to">
+          To
+          <p class="" id="TD2_1"></p>
+        </div>
+        </div>
+        
+        <div class="ticketFields" id="firstName">
+          Passenger
+          <div id="TD3"></div>
+        </div>
+        <div class="ticketFields" id="busNumber">
+         <div id="ticketNo"> Ticket No </div>
+          <div class="ticketDetails" id="TD1"></div>
+        </div>
+
+        <div class="ticketFields" id="ticketNumber">
+          <div id="passengerType"></div>
+          <div class="ticketDetails" id="TD6"></div>
+        </div>
+        <div class="ticketFields" id="fareType">
+          <div id="validTime">Valid Till</div>
+          <div class="ticketDetails" id="TD7"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

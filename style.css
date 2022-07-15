@@ -1,0 +1,174 @@
+#logo {
+  margin-left: auto;
+  height: 100px !important;
+  margin-right: auto;
+  display: block;
+}
+#main {
+  display: none;
+  position: absolute;
+  /* width: 1200px; */
+  left: 40%;
+  top: 20%;
+}
+.ticket {
+  border-radius: 20px;
+  width: 250px;
+  height: 450px;
+  background-color: #ff0037a1;
+  position: relative;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 8%), 0 2px 10px 0 rgb(0 0 0 / 8%);
+}
+
+.ticketFields {
+  border-bottom: solid 1px white;
+  position: relative;
+  width: 200px;
+  /* background-color: #da251d; */
+  top: 20px;
+  left: 24px;
+  margin-bottom: 15px;
+  /* box-shadow:0 2px 8px 0 rgb(0 0 0 / 30%), 0 2px 10px 0 rgb(0 0 0 / 30%); */
+}
+
+#busNumber {
+  height: 50px;
+}
+#ticketValidity {
+  height: 50px;
+}
+#stationName {
+  height: 50px;
+}
+#busInfo {
+  height: 50px;
+}
+#ticketNumber {
+  height: 50px;
+}
+#firstName,
+#lastName {
+  width: 180px;
+  /* height: 35px; */
+  left: 33px;
+  color: #ffffffc7;
+}
+#fareType {
+  height: 50px;
+  border-bottom: none;
+}
+
+#buyTicket {
+  margin-left: auto;
+  width: 600px;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.ticketDetails {
+  color: white;
+  left: 40%;
+  top: 35%;
+  position: relative;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #da251d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #bd241c;
+}
+
+#bus {
+  display: inline-block;
+  width: 20%;
+  color: #ffffffc7;
+}
+
+#ticketValidity {
+  color: white;
+  float: right;
+}
+#ticketNo {
+  color: #ffffffc7;
+}
+
+#passengerType {
+  color: #ffffffc7;
+}
+
+#validTime {
+  color: #ffffffc7;
+}
+
+#from {
+  display: inline-block;
+  color: #ffffffc7;
+}
+#to {
+  float: right;
+  color: #ffffffc7;
+}
+#TD2,
+#TD2_1 {
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+#TD3 {
+  /* margin-top: 6px; */
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 0.5em;
+}
+#TD5 {
+  color: #ffffffc7;
+  margin-top: 10%;
+  color: white;
+}
+
+#TD1,
+#TD6,
+#TD7 {
+  top: -5px;
+  float: right;
+  color: white;
+  font-size: x-large;
+  /* font-weight: bold; */
+  left: 0;
+}
+
+.dots {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 100%;
+  margin-left: 1.5em;
+  position: relative;
+  left: 1.3em;
+  top: -8px;
+}
